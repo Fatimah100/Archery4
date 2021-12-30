@@ -86,7 +86,7 @@ function draw() {
 
 
 function keyPressed() {
-  if(keyCode === SPAACE){
+  if(keyCode === 32){
     // create an arrow object and add into an array ; set its angle same as angle of playerArcher
     var posX = playerArcher.body.position.x;
     var posY = playerArcher.body.position.y;
@@ -100,7 +100,7 @@ function keyPressed() {
 
 function keyReleased () {
 
-  if(keyCode === SPACE){
+  if(keyCode === 32){
     //call shoot() function for each arrow in an array playerArrows
     if (playerArrows.length) {
       var angle = playerArcher.body.angle+PI/2;
