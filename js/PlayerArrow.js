@@ -1,4 +1,4 @@
-class PlayerArrow {
+iclass PlayerArrow {
   constructor(x, y, width, height) {
     var options = {
       restitution: 0.8,
@@ -39,7 +39,7 @@ class PlayerArrow {
   
 
       for (var i = 0; i < this.trajectory.length; i++) {
-        image(this.image, this.trajectory[i][0], this.trajectory[i][1], 5, 5);
+        ellipse(this.trajectory[i][0], this.trajectory[i][1], 5, 5);
       }
      
   
