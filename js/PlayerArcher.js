@@ -14,9 +14,6 @@ class PlayerArcher {
       World.add(world, this.body);
   
       Matter.Body.setAngle(this.body, -PI / 2); 
-      Matter.Body.setAngle(this.body, -PI ); 
-      Matter.Body(this.body, -PI ); 
-      Matter.setAngle(this.body, -PI / 2); 
     }
   
     display() {
